@@ -1,6 +1,6 @@
 # 📌 Documentação da API - Desafio BackEnd Manipulae
 
-## **1️⃣ Visão Geral da API**
+## ** 1 Visão Geral da API**
 A API **Desafio BackEnd Manipulae** permite **buscar, cadastrar, atualizar, excluir e filtrar vídeos** baseando-se na **YouTube Data API v3** e armazenando os dados em um banco **SQLite**.
 
 A API também conta com **autenticação JWT** e um sistema de permissões, onde:
@@ -8,7 +8,7 @@ A API também conta com **autenticação JWT** e um sistema de permissões, onde
 - **Usuários comuns** podem apenas visualizar os vídeos.
 
 
-## **2️⃣ Tecnologias Utilizadas**
+## ** 2 Tecnologias Utilizadas**
 ✅ **.NET 7** - Backend
 ✅ **Entity Framework Core** - ORM para SQLite
 ✅ **JWT** - Autenticação e segurança
@@ -16,7 +16,7 @@ A API também conta com **autenticação JWT** e um sistema de permissões, onde
 ✅ **Swagger** - Documentação e testes interativos
 
 
-## **3️⃣ Como Rodar a API?**
+## ** 3 Como Rodar a API?**
 
 ### **Passo 1: Clonar o Repositório**
 ```sh
@@ -46,7 +46,7 @@ OBS: Como não fiz configuração explícita, a API ficou disponível para mim a
 ```
 
 ---
-## **4️⃣ Testando a API no Swagger**
+## ** 4 Testando a API no Swagger**
 O Swagger permite testar a API de forma interativa.
 
 ### **📌 Acessar o Swagger**
@@ -62,9 +62,9 @@ OBS: Como não fiz configuração explícita, a API ficou disponível para mim a
 Lá você encontrará **todos os endpoints** e poderá testá-los diretamente.
 
 ---
-## **5️⃣ Passo a Passo: Testando Endpoints no Swagger**
+## ** 5 Passo a Passo: Testando Endpoints no Swagger**
 
-### **1️⃣ Criar um Usuário**
+### ** 1 Criar um Usuário**
 **Endpoint:** `POST /api/user/register`
 **Body:**
 ```json
@@ -79,7 +79,7 @@ Lá você encontrará **todos os endpoints** e poderá testá-los diretamente.
 "Usuário cadastrado com sucesso."
 ```
 
-### **2️⃣ Fazer Login e Obter Token JWT**
+### ** 2 Fazer Login e Obter Token JWT**
 **Endpoint:** `POST /api/user/login`
 **Body:**
 ```json

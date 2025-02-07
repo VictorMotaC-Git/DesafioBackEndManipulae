@@ -169,7 +169,7 @@ Authorization: Bearer SEU_TOKEN_AQUI (possível que solicite nova autorização)
 ```
 
 ---
-## **6️⃣ Considerações Finais**
+## ** 6 Considerações Finais**
 Esta API foi desenvolvida utilizando **boas práticas** como:
 - **Autenticação JWT** para segurança
 - **SQLite + Entity Framework** para persistência de dados

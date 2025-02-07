@@ -55,7 +55,7 @@ public class VideoService
     // 🔍 Método de filtragem avançada
     public async Task<List<Video>> FiltrarVideosAsync(
         string titulo,
-        string autor,
+        string? autor,
         TimeSpan? minDuracao,
         TimeSpan? maxDuracao,
         DateTime? dataMin,

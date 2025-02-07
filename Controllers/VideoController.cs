@@ -58,7 +58,7 @@ public class VideoController : ControllerBase
     [Authorize]
     public async Task<ActionResult<List<Video>>> FiltrarVideos(
         [FromQuery] string titulo,
-        [FromQuery] string autor,
+        [FromQuery] string? autor,
         [FromQuery] int? minDuracao,
         [FromQuery] int? maxDuracao,
         [FromQuery] DateTime? dataMin,

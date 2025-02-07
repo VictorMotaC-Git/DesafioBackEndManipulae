@@ -41,7 +41,8 @@ dotnet run
 
 Por padrão, a API estará disponível em:
 ```
-http://localhost:5000/swagger
+http://localhost:5000/swagger 
+OBS: Como não fiz configuração explícita, a API ficou disponível para mim aqui: `https://localhost:7202/swagger` por isso indico executar direto no Visual Studio.
 ```
 
 ---
@@ -50,12 +51,13 @@ O Swagger permite testar a API de forma interativa.
 
 ### **📌 Acessar o Swagger**
 
-Executando direto do VisualStudio já irá exibir no Swagger.
+Executando diretamente pelo VisualStudio já irá exibir no Swagger.
 
 Ou
 
 1. Inicie a API com `dotnet run`
-2. No navegador, acesse: `http://localhost:5000/swagger` (ou `https://localhost:7202/swagger`)
+2. No navegador, acesse: `http://localhost:5000/swagger` 
+OBS: Como não fiz configuração explícita, a API ficou disponível para mim aqui: `https://localhost:7202/swagger` por isso indico executar direto no Visual Studio.
 
 Lá você encontrará **todos os endpoints** e poderá testá-los diretamente.
 

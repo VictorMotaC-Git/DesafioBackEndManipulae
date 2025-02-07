@@ -20,7 +20,7 @@ A API também conta com **autenticação JWT** e um sistema de permissões, onde
 
 ### **Passo 1: Clonar o Repositório**
 ```sh
- git clone https://github.com/seu-repositorio.git
+ git clone https://github.com/VictorMotaC-Git/DesafioBackEndManipulae.git
  cd DesafioBackEndManipulae
 ```
 
